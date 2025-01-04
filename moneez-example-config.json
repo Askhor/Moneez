@@ -1,0 +1,27 @@
+{
+	"category colors": {
+		"Supermarkt": "red",
+		"Restaurant": "red",
+		"Mama": "pink"
+	},
+	"default color": "black",
+	"ibans": {
+		"DE<IBAN>": "Supermarkt",
+		"DE<IBAN>": "Apotheke"
+	},
+	"keywords": {
+		"kebab": "Restaurant",
+		"apotheke": "Apotheke"
+	},
+	"input files": [
+		{
+			"file": "~/path/to/your/file.csv"
+		},
+		{
+			"file": "~/path/to/other/file.csv",
+			"columns": ";",
+			"rows": "\n",
+			"field processor": "gls"
+		}
+	]
+}
